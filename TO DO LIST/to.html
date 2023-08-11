@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="to.css">
+    <script src="to.js"> </script>
+
+</head>
+<body class="a" onload="get()">
+    <div class="row" style="background-color:blue;height: 80px;">
+     <div class="container-fluid " >
+        <div class="col" >
+            <div class="row" style="background-color: blue;height: 50px;"></div>
+            <h1 style="margin-top: 5px;padding-left: 100px;">TO DO LIST</h1><br>
+            <input type="text" id="input" placeholder="Add New Tasks" style="width: 270px;height: 40px;margin-left: 20px;border-color: blue;">
+            <button class=" btn btn-primary" onclick="adds()" id="add" style="height: 40px;margin-left: 10px;width: 100px;margin-top: -5px;">Add tasks</button>
+        </div>
+        <div class="col-4">
+            <div id="i" style="background-color:skyblue;box-shadow: 5px 5px 5px rgb(231, 228, 228);height: auto;margin-left: 20px;"></div>
+    </div>   
+
+        
+     </div>
+
+
+
+</body>
+</html>
